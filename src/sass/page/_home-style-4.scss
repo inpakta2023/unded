@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------
+5.0 Home-style-4
+--------------------------------------------------------------*/
+
+/* 5.1 about-section-s2 */
+
+.about-section-s2 {
+	.about-content {
+		.about-top {
+			span {
+				color: $dark-gray;
+			}
+		}
+		p {
+			color: $dark-gray;
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* 5.2 project-section-s4 */
+
+.project-section-s4 {
+
+	@media(max-width: 991px) {
+        padding-top: 40px;
+    }
+	@media(max-width: 575px) {
+        padding-top: 0px;
+    }
+
+	.project-item {
+		border: 0;
+		padding-bottom: 0;
+
+		.project-text h2 a {
+			color: $dark-gray;
+		}
+	}
+}
+
+/* 5.3 skill-service-s2 */
+
+.skill-service-s2 {
+	.skill-wrap {
+		.skill-item {
+			&:before  {
+				background-color: #f9f9f9;
+			}
+			.skill-text {
+				h3 {
+					color: $dark-gray;
+				}
+
+				span {
+					color: $dark-gray;
+				}
+			}
+		}
+
+	} 
+}
